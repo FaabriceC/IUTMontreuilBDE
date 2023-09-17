@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>IUT De Montreuil | AÉ - Inscription</title>
+</head>
+<body>
+    <!-- Menu Navigation -->
+    <nav class="navbar">
+        <a href="index.html"><img src="img/montreuil.jpg" class="imgLogo"></a>
+        <h1 class="title">S'inscrire</h1>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projets.html">Nos projets</a></li>
+                <li><a href="idées.html">Vos idées</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="membres.html">Membres</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Fin Menu Navigation -->
+
+    <!-- Formulaire d'Inscription -->
+
+    <div class="content">
+        <form class="register-form" action="connexion.html" method="POST">
+            <h2>Inscription</h2>
+
+            <div class="form-group">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+             <label for="name">Prénom :</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class ="form-group">
+            <label for="name">Date de naissance :</label>
+                <input type="date" id="name" name="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Adresse email étudiant :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Confirmer le mot de passe :</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <button type="submit">S'inscrire</button>
+            <br>
+            <button type="button" onclick="window.location.href='connexion.html'">Vous avez déjà un compte ? Se connecter</button>
+        </form>
+    </div>
+
+
+    <!-- Fin du Formulaire d'Inscription -->
+
+    <!-- Bas de page -->
+    <footer class="finPage">© IUT de Montreuil - 2023/2024</footer>
+</body>
+</html>

@@ -89,6 +89,107 @@ a {
 }
 
 .imgnav {
-    width: 100px; /* Largeur du carré du menu */
-    height: 100px; /* Hauteur du carré du menu */;
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Connexion */
+
+.login-form {
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #226D68;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+
+/* Inscription */
+
+.register-form {
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-form .form-group {
+    margin-bottom: 20px;
+}
+
+.register-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.register-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.register-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #226D68;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #333;
 }
