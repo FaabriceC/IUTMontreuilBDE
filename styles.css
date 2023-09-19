@@ -5,10 +5,9 @@ body {
 }
 
 .content {
-    margin: 10px; /* Marge de 10px autour du contenu */
-    border: 1px solid #333; /* Bordure autour du contenu */
-    padding: 20px; /* Espace intérieur pour le contenu */
-    box-sizing: border-box; /* Inclure la bordure et la marge dans la largeur totale */
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 ul {
@@ -22,7 +21,7 @@ a {
 
 .title {
     text-align: center;
-    margin-left: 350px;
+    margin-left: 15%;
     color: #333;
 }
 
@@ -122,8 +121,10 @@ a {
 }
 
 .form-group input {
-    width: 100%;
-    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    width: 95%;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
@@ -173,7 +174,8 @@ button:hover {
 }
 
 .register-form .form-group input {
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
