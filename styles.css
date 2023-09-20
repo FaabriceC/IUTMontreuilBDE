@@ -19,6 +19,12 @@ a {
     color: #333;
 }
 
+.Onglet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : space-around;
+}
+
 .navbar {
     margin: 30px;
     display: flex;
