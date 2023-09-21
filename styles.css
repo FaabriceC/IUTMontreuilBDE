@@ -3,6 +3,8 @@
 body {
     text-align: center;
     background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -15,18 +17,25 @@ a {
 }
 
 .title {
-    text-align: center;
-
+    margin: 0;
     color: #333;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .navbar {
-    margin: 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 5%;
+    height: 100px;
+    width: 100%;
     background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: relative;
 }
 
 .navbar .nav-links {
@@ -83,12 +92,20 @@ a {
 }
 
 /* Connexion */
-
+.icon-connexion{
+    height: 70px;
+    margin-right: 1em;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
 .login-form {
     background-color: #fff;
     border: 1px solid #333;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 35px;
+    border-radius: 8px;
     max-width: 400px;
     margin: 0 auto;
 }
@@ -160,7 +177,7 @@ button:hover {
 .register-form {
     background-color: #fff;
     border: 1px solid #333;
-    padding: 20px;
+    padding: 35px;
     border-radius: 5px;
     max-width: 400px;
     margin: 0 auto;
