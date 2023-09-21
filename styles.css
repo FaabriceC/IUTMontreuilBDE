@@ -19,15 +19,10 @@ a {
     color: #333;
 }
 
-.titlePresentation {
-    text-align: center;
-    color: #226D68;
-}
-
-.textePresentation {
-    text-align: center;
-    color: #333;
-    font-size: 130%;
+.Onglet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : space-around;
 }
 
 .navbar {
