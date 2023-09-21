@@ -12,25 +12,10 @@
 
     <nav class="navbar">
         <a href="index.html"><img src="img/montreuil.jpg" class="imgLogo"></a>
-        <h1 class="title">Se connecter</h1>
+        <h1 class="title">Association Étudiant</h1>
         <div class="nav-links">
             <ul>
-                <li><a href="index.html">
-                    Accueil
-                </a></li>
-                <li><a href="projets.html">
-                    Nos projets
-                </a></li>
-                <li><a href="idées.html">
-                    Vos idées
-                </a></li>
-                <li><a href="contact.html">
-                    Contact
-                </a></li>
-                <li><a href="membres.html">
-                    Membres
-                </a></li>
-                <li class="active"><a href="connexion.html">
+                <li><a href="connexion.html">
                     Connexion
                 </a></li>
             </ul>
@@ -45,22 +30,24 @@
 
 
 <div class="content">
-
     <form class="login-form" action="" method="POST">
         <h2>Connexion</h2>
         <div class="form-group">
-            <label for="email">Adresse email étudiant :</label>
+            <label for="email">Adresse email :</label>
             <input type="email" id="email" name="email" required>
         </div>
         <div class="form-group">
             <label for="password">Mot de passe :</label>
             <input type="password" id="password" name="password" required>
         </div>
-        <button type="submit">Se Connecter</button>
+        <div class="form-group2">
+            <a href="">Mot de passe oublié ?</a>
+            <button class="button-connexion" type="submit">Se Connecter</button>
+            
+        </div>
         <br>
+    
         <button type="button" onclick="window.location.href='inscription.html'">Pas de compte ? S'inscrire</button>
-        <br>
-        <button type="button" onclick="window.location.href='inscription.html'">Mot de passe oublié ? Cliquez ici</button>
     </form>
 
 </div>
@@ -70,7 +57,7 @@
 
 
 <!--Bas de page-->
-
+<br>
 <footer class="finPage">© IUT de Montreuil - 2023/2024</footer>
 
 
