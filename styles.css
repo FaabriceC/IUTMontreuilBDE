@@ -1,10 +1,9 @@
 
-/* Aceuil */
+/* Accueil */
+
+
 body {
-    text-align: center;
     background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
 }
 
 ul {
@@ -17,25 +16,20 @@ a {
 }
 
 .title {
-    margin: 0;
     color: #333;
-    position: absolute;
-    left: 0;
-    right: 0;
     text-align: center;
+    margin: 0;
+    font-size: 24px;
+    align-self: center;
 }
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
-    width: 100%;
+    height: 100%;
+    width: 99%;
     background-color: #fff;
-    top: 0;
-    left: 0;
-    right: 0;
-    position: relative;
 }
 
 .navbar .nav-links {
