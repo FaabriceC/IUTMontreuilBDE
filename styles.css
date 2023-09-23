@@ -42,6 +42,7 @@ a {
 
 .imgLogo {
     width: 125px;
+    margin-left: 80px;
 }
 
 .navbar .nav-links ul li {
@@ -86,6 +87,7 @@ a {
 }
 
 /* Connexion */
+
 .icon-connexion{
     height: 70px;
     margin-right: 1em;
@@ -149,7 +151,7 @@ a {
     cursor: pointer;
 }
 
-button {
+.button-log {
     display: block;
     width: 100%;
     padding: 10px;
@@ -158,10 +160,6 @@ button {
     border: none;
     border-radius: 3px;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #333;
 }
 
 
@@ -215,3 +213,79 @@ button:hover {
 .register-form button:hover {
     background-color: #333;
 }
+
+/* Menu nav 2 */
+
+.nav-toggler {
+
+    position: fixed;
+    z-index: 10;
+    top: 35px;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin-left: 20px;
+}
+
+.line {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #333; 
+    transition: transform 0.3s ease-out, opacity 0.1s ease-out;
+    border-radius: 4px;
+}
+
+.l1 {
+    transform: translateY(-6px);
+}
+
+.l3 {
+    transform: translateY(6px);
+}
+
+.nav-toggler.active .l1 {
+    transform: translateY(0px) rotate(135deg);
+}
+
+.nav-toggler.active .l2 {
+    opacity: 0;
+}
+
+.nav-toggler.active .l3 {
+    transform: translateY(0px) rotate(-135deg);
+}
+
+.navBarre {
+    position: fixed;
+    width: 50vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #333;
+    border-bottom: 2px solid #cfcfcf;
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.73, 0.11, 0.67, 0.84);
+}
+
+.navBarre.active {
+    transform: translate(0);
+}
+
+.navBarre a {
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    margin: 10px 0;
+}
+
