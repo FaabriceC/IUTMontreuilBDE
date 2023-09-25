@@ -7,22 +7,38 @@
     <title>IUT De Montreuil | AÉ - Inscription</title>
 </head>
 <body>
+
+    <br>
     <!-- Menu Navigation -->
-    <nav class="navbar">
-        <a href="index.html"><img src="img/montreuil.jpg" class="imgLogo"></a>
-        <h1 class="title">Association Étudiant</h1>
-        <div class="nav-links">
-            <ul>
-                <li><a href="connexion.html">
-                    Connexion
-                </a></li>
-            </ul>
-        </div>
-    </nav>
+
+    <header>
+    
+        <nav class="navbar">
+            <a href="index.html"><img src="img/montreuil.jpg" class="imgLogo"></a>
+            <h1 class="title">Association Étudiant</h1>
+            <a href="connexion.html"><img class="icon-connexion" src="img/icon-connexion.png"></a>
+    
+        </nav>
+    
+        
+        <nav class="navBarre">
+            <a href="index.html">Accueil</a>
+            <a href="projets.html">Nos projets</a>
+            <a href="idées.html">Vos idées</a>
+            <a href="contact.html">Contact</a>
+            <a href="membres.html">Membres</a>
+        </nav>
+        <button type="button" class="nav-toggler">
+            <span class="line l1"></span>
+            <span class="line l2"></span>
+            <span class="line l3"></span>
+        </button>
+    
+    </header>
     <!-- Fin Menu Navigation -->
 
     <!-- Formulaire d'Inscription -->
-
+<br><br>
     <div class="content">
         <form class="register-form" action="connexion.html" method="POST">
             <h2>Inscription</h2>
@@ -59,14 +75,18 @@
 
             <button type="submit">S'inscrire</button>
             <br>
-            <button type="button" onclick="window.location.href='connexion.html'">Vous avez déjà un compte ? Se connecter</button>
+            <a href="connexion.html">Vous avez déjà un compte ? Se connecter</a>
         </form>
     </div>
+    <br>
 
 
     <!-- Fin du Formulaire d'Inscription -->
 
     <!-- Bas de page -->
     <footer class="finPage">© IUT de Montreuil - 2023/2024</footer>
+    <br>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
