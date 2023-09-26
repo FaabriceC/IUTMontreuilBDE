@@ -82,21 +82,64 @@ a {
 }
 
 .Onglet{
-    height:400PX;
+    height:500px;   
     display: grid;
     grid-template-columns : 22% 22%;
     grid-template-rows : 30% 30% 30%;
-    gap: 15px;
+    gap: 3%;
     justify-content : center;
 }
 
 .Box{
-    border: solid;
-    border-radius: 20px;
+    border: 2px solid #226D68;
+    border-radius: 21px;
     justify-content : center;
     text-align: center;
+    font-size: 100%;
 }
 
+.Box:hover{
+    border-left: 3px solid #226D68;
+    border-bottom: 3px solid #226D68;
+}
+
+.Image_box{
+    display: flex;
+    width: auto;
+    
+}
+.Photo, .Evenement,.Club, .Journal,.Aide, .Potins {
+    height:5%;
+}
+
+.fond_vignette1, .fond_vignette2, .fond_vignette3, .fond_vignette4, .fond_vignette5, .fond_vignette6{
+    display: flex;
+    width: auto;
+    height : 73%;
+    filter: blur(1px);
+    border-radius: 0px  0px 17px 17px;
+
+}
+
+.fond_vignette1{
+    background-image: url(img/photo.jpg);
+}
+.fond_vignette2{
+    background-image: url(img/Event.png);
+}
+
+.fond_vignette3{
+    background-image: url(img/Club.jpeg);
+}
+.fond_vignette4{
+    background-image: url(img/Journal.jpg);
+}
+.fond_vignette5{
+    background-image: url(img/Aide.jpg);
+}
+.fond_vignette6{
+    background-image: url(img/Potins.jpg);
+}
 /* Connexion */
 
 .icon-connexion{
