@@ -138,6 +138,10 @@ a {
 .fond_vignette6{
     background-image: url(img/Potins.jpg);
 }
+
+.banniere{
+display: flex
+;}
 /* Connexion */
 
 .icon-connexion{
