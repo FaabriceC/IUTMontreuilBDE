@@ -4,6 +4,10 @@
 
 body {
     background-color: #f2f2f2;
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 ul {
@@ -272,11 +276,12 @@ a {
 }
 
 .navBarre {
+    top: 0;
+    left: 0;
     position: fixed;
-    width: 50vw;
+    width: 200px;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     background: #333;
@@ -295,4 +300,9 @@ a {
     display: block;
     margin: 10px 0;
 }
-
+.imgnav{
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 60%;
+    height: auto;
+}
