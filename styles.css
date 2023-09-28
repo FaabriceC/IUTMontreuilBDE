@@ -300,7 +300,7 @@ a {
     top: 0;
     left: 0;
     position: fixed;
-    width: 230px;
+    width:230px;
     min-height: 100vh;
     display: flex;
     align-items: center;
