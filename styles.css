@@ -26,19 +26,20 @@ a {
 }
 
 .navbar {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    width: 100;
+    width: 100%;
     top: 0;
     left: 0;
     right: 0;
-    position: relative;
+    position: absolute;
     background-color: #fff;
 }
 
 .imgLogo {
+    position: relative;
+    z-index: 1;
     width: 125px;
     margin-left: 80px;
 }
@@ -77,6 +78,7 @@ a {
 }
 
 .Image_box{
+    object-fit: cover;
     display: flex;
     width: auto;
     
@@ -131,6 +133,7 @@ a {
     justify-content: center;
 }
 .banniere{
+    margin-top: 90px;
     display: flex;
     justify-content: center;
 }
@@ -201,6 +204,7 @@ a {
 /*-------------------------------Connexion------------------------------- */
 
 .icon-connexion{
+    position: relative;
     height: 70px;
     margin-right: 1em;
     
@@ -277,7 +281,6 @@ a {
     border-radius: 3px;
     cursor: pointer;
 }
-
 
 /*-------------------------------Inscription------------------------------- */
 
@@ -381,11 +384,12 @@ a {
 }
 
 .navBarre {
-    position: fixed;
+    top: 0;
+    z-index: 1;
+    position:fixed;
     width:230px;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     background: #333;
