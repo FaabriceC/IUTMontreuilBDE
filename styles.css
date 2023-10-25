@@ -119,8 +119,9 @@ a {
 }
 
 .text_banniere{
-    width : 100%;
-    margin-left: 1.8%;
+    color: aliceblue;
+    margin-left: 30px;
+    text-decoration: none;
 }
 
 .sous_banniere{
@@ -138,13 +139,13 @@ a {
     justify-content: center;
 }
 
-.titre_banniere{
-    margin-left: 1.2%;
-    height: 10px;
-    width : auto;
-    margin-bottom: 3.5%;
+.titre_banniere{    
+    color: aliceblue;
+    margin-left: 10px;
+    padding: 10px;
     font-weight: bold;
-    font-size: 160%;
+    font-size: xx-large;
+    text-shadow: -3px 3px 6px black;
 }
 
 .sous_sous_banniere{
@@ -157,15 +158,17 @@ a {
     width: 152%;
 }
 .icon_info{
-    margin-top: 1.35%;
     display: flex;
-    text-align: center;
+    position: relative;
     justify-content: center;
 }
 
 .box_explication_ae{
-    background-color: #226D68;
-    margin-top: 3%;
+    padding: 10px 30px;
+    color: aliceblue;
+    font-size: 25px;
+    background-color: #226d68;
+    margin-top: 125px;
     margin-left: 10%;
     scroll-behavior: smooth;
     margin-bottom: 1.5%;
@@ -173,17 +176,14 @@ a {
     width: 80%;
     text-align: justify;
     border-radius: 4px;
-    height: 440px;
-    overflow-y: scroll;
-    scrollbar-color: rgb(48, 48, 48) rgba(0, 0, 0, 0.146);
-    scrollbar-width: thin;
+
 }
 
 .text_explication_ae{
     text-align: justify;
     display: flex;
     text-align: center;
-    margin-left: 20%;
+    margin-left: 20;
     margin-right: 20%;
 }
 .d_accumuler_de_l_argent, .l_un, .Ainsi_, .l_ensemble{
@@ -193,12 +193,18 @@ a {
 .Ainsi_{
     text-decoration: underline;
     font-weight: bold;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 40px;
+}
+.titreBDE{
+    text-decoration: underline;
+    font-weight: bold;
 }
 .liste_a_point, .prmr_part_du_text{
     margin-left: 1%;
     margin-right: 1%;
+}
+#defBDE{
+    margin-left: 40px;
 }
 
 /*-------------------------------Connexion------------------------------- */
